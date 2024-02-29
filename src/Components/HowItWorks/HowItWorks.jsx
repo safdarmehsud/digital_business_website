@@ -29,7 +29,6 @@ const HowItWorks = () => {
         <div className="container">
           <div className="hiw-container">
             {/* head */}
-            // HJSBD
             <div className="hiw-head">
               <motion.span 
               variants={tagVariants}

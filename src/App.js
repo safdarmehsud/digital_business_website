@@ -7,6 +7,8 @@ import WhatWeDo from "./Components/WhatWeDo/WhatWeDo";
 import OurDiff from "./Components/OurDifference/OurDiff";
 import { motion, useAnimation } from "framer-motion";
 import HowItWorks from "./Components/HowItWorks/HowItWorks";
+import WhoWeInvest from "./Components/WhoWeInvest/WhoWeInvest";
+import Testimonial from "./Components/Testimonials/Testimonial";
 
 function App() {
   const controls = useAnimation();
@@ -32,6 +34,22 @@ function App() {
         <OurDiff />
       </motion.div>
       <HowItWorks/>
+      <motion.div 
+      onViewportEnter={() =>
+        controls.start({
+          backgroundColor: "var(--primary-color)",
+        })
+      }
+      onViewportLeave={() =>
+        controls.start({
+          backgroundColor: "white",
+        })
+      }
+      viewport={{amount: 0.4}}
+      >
+      <WhoWeInvest/>
+      </motion.div>
+      <Testimonial/>
     </motion.div>
   );
 }

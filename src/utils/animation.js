@@ -54,8 +54,8 @@ export const desVariants= {
         y:0,
         transition:{
             type:"spring",
-            duration:2.6,
-            delay:2
+            duration:1.7,
+            delay:1
         }
     }
 }

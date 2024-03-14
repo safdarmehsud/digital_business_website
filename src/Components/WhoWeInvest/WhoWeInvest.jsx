@@ -20,12 +20,12 @@ const WhoWeInvest = () => {
               <div className="head">
                 <motion.span 
                 initial="offscreen"
-                whileInView={"onscreen"}
+                whileinview={"onscreen"}
                 variants={tagVariants}
                 className="tag">Who we invest in</motion.span>
                 <motion.span
                 initial="offscreen"
-                whileInView={"onscreen"}
+                whileinview={"onscreen"}
                 variants={titleVariants}
                 className="title">
                   Digital businesses
@@ -39,17 +39,17 @@ const WhoWeInvest = () => {
                 {whoWeInvest.map((feature, i) => (
                   <motion.div 
                     initial="offscreen"
-                    whileInView={"onscreen"}
+                    whileinview={"onscreen"}
                     variants={containerVariants(i * 0.05 + 1)}
                     className="wwi-feature" key={i}>
                     <motion.span 
                     initial="offscreen"
-                    whileInView={"onscreen"}
+                    whileinview={"onscreen"}
                     variants={titleVariants}
                     className="des">{feature.title}</motion.span>
                     <motion.span 
                     initial="offscreen"
-                    whileInView={"onscreen"}
+                    whileinview={"onscreen"}
                     variants={desVariants}
                     className="text">{feature.des}</motion.span>
                   </motion.div>
@@ -62,7 +62,7 @@ const WhoWeInvest = () => {
             <motion.img 
             variants={containerVariants(0.5)}
             initial="offscreen"
-            whileInView={"onscreen"}
+            whileinview={"onscreen"}
             src="persons.png"
              alt="persons"/>
             </motion.div>

@@ -19,19 +19,19 @@ const OurDiff = () => {
               <motion.span 
               variants={tagVariants}
               initial="offscreen"
-              whileInView={"onscreen"}
+              whileinview={"onscreen"}
               className="tag">Our Difference</motion.span>
               
               <motion.span 
               variants={titleVariants}
               initial="offscreen"
-              whileInView={"onscreen"} 
+              whileinview={"onscreen"} 
               className="title">Fair capital, hassle free</motion.span>
              
               <motion.span 
               variants={textVariants}
               initial="offscreen"
-              whileInView={"onscreen"} 
+              whileinview={"onscreen"} 
               className="text">
                 Our mission is to level thhe playing for early stage growth
                 capital.
@@ -46,7 +46,7 @@ const OurDiff = () => {
               {ourDiffFeatures.map((feature, i) => (
                 <div key={i} 
                 initial="offscreen"
-                whileInView={"onscreen"}
+                whileinview={"onscreen"}
                 variants={containerVariants((i+1)*0.1)}
                 className="od-feature">
                   <img
@@ -58,12 +58,12 @@ const OurDiff = () => {
                   <motion.span 
                   variants={titleVariants}
                   initial="offscreen"
-                  whileInView={"onscreen"}
+                  whileinview={"onscreen"}
                   className="sec-title">{feature.title}</motion.span>
                   <motion.span 
                   variants={textVariants}
                   initial="offscreen"
-                  whileInView={"onscreen"} className="text">{feature.des}</motion.span>
+                  whileinview={"onscreen"} className="text">{feature.des}</motion.span>
                 </div>
               ))}
             </div>

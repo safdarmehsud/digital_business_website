@@ -33,12 +33,12 @@ const HowItWorks = () => {
               <motion.span 
               variants={tagVariants}
               initial="offscreen"
-              whileInView={"onscreen"}
+              whileinview={"onscreen"}
               className="tag">How it works</motion.span>
               <motion.span 
               variants={titleVariants}
               initial="offscreen"
-              whileInView={"onscreen"} 
+              whileinview={"onscreen"} 
               className="title">
                 Unlocking potential along the growth journey
               </motion.span>
@@ -49,13 +49,13 @@ const HowItWorks = () => {
                 <motion.div 
                 variants={featureVariants}
                 initial="offscreen"
-                whileInView={"onscreen"}
+                whileinview={"onscreen"}
                 className="hiw-feature" 
                 key={i}>
                   {/* left side */}
                   <motion.div 
                   initial={{opacity:0, x: -100}}
-                  whileInView={{
+                  whileinview={{
                     opacity:1,
                     x:0,
                     transition:{

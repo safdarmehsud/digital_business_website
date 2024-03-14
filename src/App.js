@@ -9,6 +9,7 @@ import { motion, useAnimation } from "framer-motion";
 import HowItWorks from "./Components/HowItWorks/HowItWorks";
 import WhoWeInvest from "./Components/WhoWeInvest/WhoWeInvest";
 import Testimonial from "./Components/Testimonials/Testimonial";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const controls = useAnimation();
@@ -50,6 +51,7 @@ function App() {
       <WhoWeInvest/>
       </motion.div>
       <Testimonial/>
+      <Footer/>
     </motion.div>
   );
 }

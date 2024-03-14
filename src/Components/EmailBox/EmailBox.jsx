@@ -12,7 +12,7 @@ const EmailBox = () => {
       width:".5rem",
       borderRadius:"100%",
     }}
-    whileInView={{
+    whileinview={{
       width:"70%",
       borderRadius:"999px",
       transition:{
@@ -25,7 +25,7 @@ const EmailBox = () => {
     <motion.div
     variants={containerVariants(0.6)}
     initial="offscreen"
-    whileInView={"onscreen"}
+    whileinview={"onscreen"}
     viewport={{
       once:true,
     }}
@@ -37,7 +37,7 @@ const EmailBox = () => {
     <motion.input 
     variants={containerVariants(0.7)}
     initial="offscreeen"
-    whileInView={"onscreen"}
+    whileinview={"onscreen"}
     viewport={{
       once:true
     }}
@@ -48,7 +48,7 @@ const EmailBox = () => {
     <motion.div 
     variants={containerVariants(0.9)}
     initial="offscreeen"
-    whileInView={"onscreen"}
+    whileinview={"onscreen"}
     viewport={{
       once:true
     }}

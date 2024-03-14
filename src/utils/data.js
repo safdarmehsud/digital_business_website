@@ -116,26 +116,26 @@ export const whoWeInvest = [
 export const testimonialsData = [
   {
     comment:
-      "SUPER HAPPY! Not only do you get to see the best seed and Early Stage companies but the exciting part is there’s a bunch of investors",
-    name: "Zach Lee",
-    profession: "QA specialist, Matrix architect",
+      "Haider Rehman is a diligent Chartered Accountant student, dedicated to mastering the complexities of finance and accounting. With a focused mindset and a passion for learning.",
+    name: "Haider Rehman",
+    profession: " CA Student",
   },
   {
     comment:
-      "I have been working with ZAINKEEPSCODE on our fundraising strategies. They understands the in depth strategies of Venture Capital and early stage fund raising/company",
-    name: "Cheryl R. Weiss",
-    profession: "Founder, Dubrow Cafeteria",
+      "Safdar Rehman is an adept professional web developer, crafting engaging digital experiences with precision and creativity. With a keen eye for design and a knack for problem-solving.",
+    name: "Safdar Rehman",
+    profession: "  Professionl Web developer",
   },
   {
     comment:
-      "Another masterpiece really digging into the art of venture funds, portfolio construction and deal mechanics! Loved it - I can say without hesitation that it is incredibly valuable for anyone who is investing",
-    name: "Vicky R. Lane",
-    profession: "Directork, Lafayette Radio",
+      "Talha Rehman excels as an Amazon wholesaler, navigating the e-commerce landscape with strategic sourcing and market insight. With a focus on quality products and efficient logistics.",
+    name: "Talha Rehman",
+    profession: " Amazon whole saler",
   },
   {
     comment:
-      "BlueVenture is the premier setting for entrepreneurs and investors alike to exchange ideas, and network. As an entrepreneur, I can rely on the BlueVenture to bring top caliber speakers, entrepreneurs and investors",
-    name: "Jennifer Dubois",
-    profession: "Manager, China Coast",
+      "Muhammed Zarsher is a skilled trading master, navigating the financial markets with astute analysis and swift decision-making. With a deep understanding of trends and market dynamics.",
+    name: "Muhammed Zarsher",
+    profession: " Tredding master",
   },
 ];

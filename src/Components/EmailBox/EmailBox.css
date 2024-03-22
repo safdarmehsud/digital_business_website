@@ -1,4 +1,4 @@
-.emailBox{
+.emailBox {
     background-color: white;
     padding: 1rem 2rem;
     border-radius: 999px;
@@ -8,19 +8,22 @@
     position: relative;
     overflow: hidden;
 }
-.emailBox>input{
+
+.emailBox>input {
     outline: none;
     border: none;
     margin-left: 1rem;
     font-size: 1rem;
-    color: rgb(150, 150,150);
+    color: rgb(150, 150, 150);
     font-family: josefin sans;
     flex: 1;
 }
-.emailBox>input::placeholder{
+
+.emailBox>input::placeholder {
     font-size: 1rem;
 }
-.getFunded{
+
+.getFunded {
     position: absolute;
     right: 0.5rem;
     height: 80%;

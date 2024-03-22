@@ -3,7 +3,7 @@ import "./hero.css";
 import EmailBox from "../EmailBox/EmailBox";
 import { HeroData } from "./../../utils/data";
 import { motion } from "framer-motion";
-import { } from "@testing-library/user-event/dist/type";
+import {} from "@testing-library/user-event/dist/type";
 
 const hero = () => {
   const variants = (delay) => ({

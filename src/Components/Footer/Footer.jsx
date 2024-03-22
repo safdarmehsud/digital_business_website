@@ -1,6 +1,6 @@
 import React from "react";
 import EmailBox from "../EmailBox/EmailBox";
-import './Footer.css'
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
               <span>Testimonial</span>
             </div>
 
-            <hr/>
+            <hr />
 
             <span className="text">"Made by Safdar Rehman"</span>
           </div>

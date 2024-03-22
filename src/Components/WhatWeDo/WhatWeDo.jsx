@@ -19,7 +19,7 @@ const WhatWeDo = () => {
             <div className="wwd-head">
               <motion.span
                 initial="offscreen"
-                whileinview={"onscreen"}
+                whileInView={"onscreen"}
                 variants={tagVariants}
                 className="tag"
               >
@@ -27,7 +27,7 @@ const WhatWeDo = () => {
               </motion.span>
               <motion.span
                 initial="offscreen"
-                whileinview={"onscreen"}
+                whileInView={"onscreen"}
                 variants={titleVariants}
                 className="title"
               >
@@ -36,7 +36,7 @@ const WhatWeDo = () => {
               </motion.span>
               <motion.span
                 initial="offscreen"
-                whileinview={"onscreen"}
+                whileInView={"onscreen"}
                 variants={desVariants}
                 className="des"
               >
@@ -50,7 +50,7 @@ const WhatWeDo = () => {
               <div className="wwd-block">
                 <motion.span
                   initial="offscreen"
-                  whileinview={"onscreen"}
+                  whileInView={"onscreen"}
                   variants={titleVariants}
                   className="sec-title"
                 >
@@ -58,7 +58,7 @@ const WhatWeDo = () => {
                 </motion.span>
                 <motion.span
                   initial="offscreen"
-                  whileinview={"onscreen"}
+                  whileInView={"onscreen"}
                   variants={desVariants}
                   className="text"
                 >
@@ -70,8 +70,8 @@ const WhatWeDo = () => {
                   {features.slice(0, 3).map((feature, i) => (
                     <motion.div
                       initial="offscreen"
-                      whileinview={"onscreen"}
-                      variants={containerVariants((i+1)*0.1)}
+                      whileInView={"onscreen"}
+                      variants={containerVariants((i + 1) * 0.1)}
                       className="block-feature"
                       key={i}
                     >
@@ -91,7 +91,7 @@ const WhatWeDo = () => {
               <div className="wwd-block">
                 <motion.span
                   initial="offscreen"
-                  whileinview={"onscreen"}
+                  whileInView={"onscreen"}
                   variants={titleVariants}
                   className="sec-title"
                 >
@@ -99,7 +99,7 @@ const WhatWeDo = () => {
                 </motion.span>
                 <motion.span
                   initial="offscreen"
-                  whileinview={"onscreen"}
+                  whileInView={"onscreen"}
                   variants={desVariants}
                   className="text"
                 >
@@ -110,8 +110,8 @@ const WhatWeDo = () => {
                   {features.slice(3, 6).map((feature, i) => (
                     <motion.div
                       initial="offscreen"
-                      whileinview={"onscreen"}
-                      variants={containerVariants((i+1)*0.1)}
+                      whileInView={"onscreen"}
+                      variants={containerVariants((i + 1) * 0.1)}
                       className="block-feature"
                       key={i}
                     >
@@ -131,34 +131,40 @@ const WhatWeDo = () => {
             <div className="wwd-support">
               {/* left side */}
               <div>
-                <motion.span 
-                initial="offscreen"
-                  whileinview={"onscreen"}
+                <motion.span
+                  initial="offscreen"
+                  whileInView={"onscreen"}
                   variants={containerVariants(0, 3)}
-                className="sec-title">Blue Growth Support</motion.span>
-                <motion.span 
-                initial="offscreen"
-                  whileinview={"onscreen"}
+                  className="sec-title"
+                >
+                  Blue Growth Support
+                </motion.span>
+                <motion.span
+                  initial="offscreen"
+                  whileInView={"onscreen"}
                   variants={desVariants}
-                className="des">
+                  className="des"
+                >
                   Data Insights and full stack expertise to supercharge growht
                 </motion.span>
               </div>
               {/* right side */}
               <div>
-                <motion.span 
-                initial="offscreen"
-                  whileinview={"onscreen"}
+                <motion.span
+                  initial="offscreen"
+                  whileInView={"onscreen"}
                   variants={desVariants}
-                className="text">
+                  className="text"
+                >
                   Actionable data insigts by connecting revenue, markketing and
                   social media platforms
                 </motion.span>
-                <motion.span 
-                initial="offscreen"
-                  whileinview={"onscreen"}
+                <motion.span
+                  initial="offscreen"
+                  whileInView={"onscreen"}
                   variants={desVariants}
-                className="text">
+                  className="text"
+                >
                   On demand execution experise of cost or revenue share across
                   proposition design, engineering, marketing analytics,
                   partnerships, brand, intellectual property, market expansion,

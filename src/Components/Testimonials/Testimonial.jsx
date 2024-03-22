@@ -1,6 +1,6 @@
 import React from "react";
 import "./Testimonial.css";
-import SlickSlider from './SlickSlider';
+import SlickSlider from "./SlickSlider";
 
 const Testimonial = () => {
   return (
@@ -10,12 +10,14 @@ const Testimonial = () => {
           <div className="t-container">
             <div className="t-head">
               <span className="tag">Testimonials</span>
-              <span className="title">Access capital that complements traditional funding options</span>
+              <span className="title">
+                Access capital that complements traditional funding options
+              </span>
               <span className="des">What people say about us</span>
-              </div>
+            </div>
           </div>
-           {/* slider */}
-           <SlickSlider/>
+          {/* slider */}
+          <SlickSlider />
         </div>
       </div>
     </>

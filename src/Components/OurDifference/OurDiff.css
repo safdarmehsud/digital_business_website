@@ -1,34 +1,38 @@
-.od-wrapper{
+.od-wrapper {
     padding-top: 15rem;
 
 }
-.od-container{
+
+.od-container {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.od-head{
+
+.od-head {
     display: flex;
     flex-direction: column;
     font: 2rem;
     align-items: center;
 }
 
-.od-head .tag{
+.od-head .tag {
     color: white;
 }
 
-.od-head .text{
+.od-head .text {
     color: white;
     text-align: center;
     max-width: 65%;
 }
-.od-features{
+
+.od-features {
     display: flex;
     gap: 2rem;
 
 }
-.od-feature{
+
+.od-feature {
     flex: 1;
     background-color: white;
     box-shadow: var(--shadow);
@@ -39,17 +43,19 @@
     padding: 2rem;
     border-radius: 1rem;
 }
-.od-feature .text{
+
+.od-feature .text {
     text-align: center;
 }
 
 @media (max-width: 990px) {
-    .od-features{
+    .od-features {
         flex-direction: column;
     }
 }
+
 @media (max-width: 590px) {
-    .od-features{
+    .od-features {
         width: 80%;
         margin: auto;
     }

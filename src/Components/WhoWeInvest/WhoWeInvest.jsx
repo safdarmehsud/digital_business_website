@@ -1,5 +1,5 @@
 import React from "react";
-import './WhoWeInvest.css'
+import "./WhoWeInvest.css";
 import { whoWeInvest } from "../../utils/data";
 import { motion } from "framer-motion";
 import {
@@ -18,16 +18,20 @@ const WhoWeInvest = () => {
             {/* left side */}
             <div className="wwi-left">
               <div className="head">
-                <motion.span 
-                initial="offscreen"
-                whileinview={"onscreen"}
-                variants={tagVariants}
-                className="tag">Who we invest in</motion.span>
                 <motion.span
-                initial="offscreen"
-                whileinview={"onscreen"}
-                variants={titleVariants}
-                className="title">
+                  initial="offscreen"
+                  whileInView={"onscreen"}
+                  variants={tagVariants}
+                  className="tag"
+                >
+                  Who we invest in
+                </motion.span>
+                <motion.span
+                  initial="offscreen"
+                  whileInView={"onscreen"}
+                  variants={titleVariants}
+                  className="title"
+                >
                   Digital businesses
                   <br />
                   with early traction
@@ -37,21 +41,29 @@ const WhoWeInvest = () => {
               {/* features */}
               <div className="wwi-features">
                 {whoWeInvest.map((feature, i) => (
-                  <motion.div 
+                  <motion.div
                     initial="offscreen"
-                    whileinview={"onscreen"}
+                    whileInView={"onscreen"}
                     variants={containerVariants(i * 0.05 + 1)}
-                    className="wwi-feature" key={i}>
-                    <motion.span 
-                    initial="offscreen"
-                    whileinview={"onscreen"}
-                    variants={titleVariants}
-                    className="des">{feature.title}</motion.span>
-                    <motion.span 
-                    initial="offscreen"
-                    whileinview={"onscreen"}
-                    variants={desVariants}
-                    className="text">{feature.des}</motion.span>
+                    className="wwi-feature"
+                    key={i}
+                  >
+                    <motion.span
+                      initial="offscreen"
+                      whileInView={"onscreen"}
+                      variants={titleVariants}
+                      className="des"
+                    >
+                      {feature.title}
+                    </motion.span>
+                    <motion.span
+                      initial="offscreen"
+                      whileInView={"onscreen"}
+                      variants={desVariants}
+                      className="text"
+                    >
+                      {feature.des}
+                    </motion.span>
                   </motion.div>
                 ))}
               </div>
@@ -59,14 +71,14 @@ const WhoWeInvest = () => {
 
             {/* right side */}
             <motion.div className="wwi-right">
-            <motion.img 
-            variants={containerVariants(0.5)}
-            initial="offscreen"
-            whileinview={"onscreen"}
-            src="persons.png"
-             alt="persons"/>
+              <motion.img
+                variants={containerVariants(0.5)}
+                initial="offscreen"
+                whileInView={"onscreen"}
+                src="persons.png"
+                alt="persons"
+              />
             </motion.div>
-
           </div>
         </div>
       </div>

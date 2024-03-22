@@ -1,63 +1,66 @@
-import React from 'react'
-import './EmailBox.css'
-import {LuMail} from 'react-icons/lu'
-import {motion} from 'framer-motion'
-import { containerVariants } from '../../utils/animation'
+import React from "react";
+import "./EmailBox.css";
+import { LuMail } from "react-icons/lu";
+import { motion } from "framer-motion";
+import { containerVariants } from "../../utils/animation";
 
 const EmailBox = () => {
   return (
     <>
-    <motion.div 
-    initial={{
-      width:".5rem",
-      borderRadius:"100%",
-    }}
-    whileinview={{
-      width:"70%",
-      borderRadius:"999px",
-      transition:{
-        type:"easeOut",
-        duration:1,
-      }
-    }}
-    className='emailBox'>
-    {/*icon*/}
-    <motion.div
-    variants={containerVariants(0.6)}
-    initial="offscreen"
-    whileinview={"onscreen"}
-    viewport={{
-      once:true,
-    }}
-    >
-    <LuMail size={30} color='grey' />
-    </motion.div>
-    
-  {/*input*/}
-    <motion.input 
-    variants={containerVariants(0.7)}
-    initial="offscreeen"
-    whileinview={"onscreen"}
-    viewport={{
-      once:true
-    }}
-    type='email'
-    placeholder='Enter Email'/>
-     
-  {/*get funded button*/}
-    <motion.div 
-    variants={containerVariants(0.9)}
-    initial="offscreeen"
-    whileinview={"onscreen"}
-    viewport={{
-      once:true
-    }}
-    className='getFunded'>
-    Get Funded
-    </motion.div>
-    </motion.div>
-    </>
-    )
-}
+      <motion.div
+        initial={{
+          width: ".5rem",
+          borderRadius: "100%",
+        }}
+        whileInView={{
+          width: "70%",
+          borderRadius: "999px",
+          transition: {
+            type: "easeOut",
+            duration: 1,
+          },
+        }}
+        className="emailBox"
+      >
+        {/*icon*/}
+        <motion.div
+          variants={containerVariants(0.6)}
+          initial="offscreen"
+          whileInView={"onscreen"}
+          viewport={{
+            once: true,
+          }}
+        >
+          <LuMail size={30} color="grey" />
+        </motion.div>
 
-export default EmailBox
+        {/*input*/}
+        <motion.input
+          variants={containerVariants(0.7)}
+          initial="offscreeen"
+          whileInView={"onscreen"}
+          viewport={{
+            once: true,
+          }}
+          type="email"
+          placeholder="Enter Email"
+        />
+
+        {/*get funded button*/}
+        <motion.div
+          variants={containerVariants(0.9)}
+          initial="offscreeen"
+          whileInView={"onscreen"}
+          viewport={{
+            once: true,
+          }}
+          className="getFunded"
+        >
+          Get Funded
+        </motion.div>
+      </motion.div>
+    </>
+  );
+};
+
+export default EmailBox;
